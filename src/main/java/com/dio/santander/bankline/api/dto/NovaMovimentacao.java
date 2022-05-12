@@ -11,5 +11,5 @@ public class NovaMovimentacao {
 	private Double valor;
 	private MovimentacaoTipo tipo;
 	private Integer idConta;
-
+	
 }
