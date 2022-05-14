@@ -40,4 +40,9 @@ public class MovimentacaoController {
 		service.save(movimentacao);
 	}
 	
+	@GetMapping("/delete")
+	public void delete() {
+		repository.deleteAll();
+	}
+	
 }
